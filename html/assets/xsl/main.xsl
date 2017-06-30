@@ -4,6 +4,10 @@
 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 <xsl:template match="/">
+	<xsl:apply-templates select="html" />
+</xsl:template>
+
+<xsl:template match="html">
 	<html>
 		<xsl:apply-templates select="head" />
 		<xsl:apply-templates select="body" />
@@ -24,7 +28,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 <xsl:template match="body">
 	<body>
-		<apply-templates select="header" />
+		<xsl:apply-templates select="header" />
 	</body>
 </xsl:template>
 
