@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 <xsl:template match="/">
 	<xsl:apply-templates select="html" />
@@ -27,7 +27,15 @@
 
 <xsl:template match="body">
 	<body>
-		<xsl:apply-templates select="header" />
+		<xsl:apply-templates select="*" />
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/skel.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+		<script src="assets/js/main.js"></script>
 	</body>
 </xsl:template>
 
@@ -39,8 +47,23 @@
 		</header>
 		<div class="container">
 			<ul class="actions">
-				<li><a href="#one" class="button special scrolly">Begin</a></li>
+				<li><a href="#{@to}" class="button special scrolly">Begin</a></li>
 			</ul>
+		</div>
+	</section>
+</xsl:template>
+
+<xsl:template match="section">
+	<section id="{@id}" class="main special">
+		<div class="container">
+			<span class="image fit primary"><img src="images/pic{@id}.jpg" alt="" /></span>
+			<div class="content">
+				<header class="major">
+					<h2><xsl:value-of select="title" /></h2>
+				</header>
+				<p><xsl:value-of select="text" /></p>
+			</div>
+			<a href="#{@to}" class="goto-next scrolly">Next</a>
 		</div>
 	</section>
 </xsl:template>
