@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="205mm"
+   height="165mm"
+   id="svg3039"
+   version="1.1"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="Discharging_capacitor.svg"
+   viewBox="0 0 726.37796 584.64566">
+  <defs
+     id="defs3041" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.76435185"
+     inkscape:cx="-54.322426"
+     inkscape:cy="281.28413"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1051"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3044">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-467.71655)">
+    <rect
+       style="fill:#241f1c"
+       id="rect3023"
+       width="10.714286"
+       height="197.14287"
+       x="145.75159"
+       y="590.28888" />
+    <rect
+       style="fill:#241f1c"
+       id="rect3023-6"
+       width="10.714286"
+       height="197.14287"
+       x="146.46588"
+       y="835.289" />
+    <rect
+       style="fill:#241f1c"
+       id="rect3043"
+       width="147.14285"
+       height="30"
+       x="82.894424"
+       y="772.43182" />
+    <rect
+       style="fill:#241f1c"
+       id="rect3043-8"
+       width="147.14285"
+       height="30"
+       x="83.608719"
+       y="820.289" />
+    <rect
+       style="fill:#241f1c"
+       id="rect3090"
+       width="456.58896"
+       height="10.101525"
+       x="145.18025"
+       y="587.72375" />
+    <rect
+       style="fill:#241f1c"
+       id="rect3090-7"
+       width="454.56866"
+       height="10.101525"
+       x="152.75638"
+       y="1022.0896" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:13.48452854;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect3112"
+       width="83.427673"
+       height="218.78812"
+       x="553.99438"
+       y="701.57343" />
+    <rect
+       style="fill:#241f1c"
+       id="rect3023-3"
+       width="10.714286"
+       height="102.18853"
+       x="590.85614"
+       y="595.72339" />
+    <rect
+       style="fill:#241f1c"
+       id="rect3023-3-6"
+       width="10.714286"
+       height="102.18853"
+       x="596.41205"
+       y="926.54846" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Bitstream Vera Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="199.65668"
+       y="502.0401"
+       id="text5487"
+       transform="scale(0.86210606,1.1599501)"><tspan
+         sodipodi:role="line"
+         id="tspan5489"
+         x="199.65668"
+         y="502.0401"
+         style="font-size:66.21655273px;line-height:1.25">----&gt;</tspan></text>
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="rect5491"
+       width="112.12693"
+       height="8.5862913"
+       x="148.96831"
+       y="556.40906"
+       ry="0.46778086" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="rect5513"
+       width="4.5456862"
+       height="19.697975"
+       x="256.80212"
+       y="537.72125"
+       ry="0.46778086" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="rect5513-3"
+       width="4.5456862"
+       height="19.697975"
+       x="256.80209"
+       y="559.18695"
+       ry="0.46778086" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Bitstream Vera Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="8.3464174"
+       y="830.58301"
+       id="text5563"
+       transform="scale(0.98337468,1.0169064)"><tspan
+         sodipodi:role="line"
+         id="tspan5565"
+         x="8.3464174"
+         y="830.58301"
+         style="font-size:87.62673187px;line-height:1.25">C</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Bitstream Vera Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="632.16357"
+       y="895.59698"
+       id="text5567"
+       transform="scale(1.0401393,0.96140968)"><tspan
+         sodipodi:role="line"
+         id="tspan5569"
+         x="632.16357"
+         y="895.59698"
+         style="font-size:84.40943146px;line-height:1.25">R</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:'Bitstream Vera Sans';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       x="172.87421"
+       y="573.36279"
+       id="text3107"
+       transform="scale(1.0600322,0.94336757)"><tspan
+         sodipodi:role="line"
+         id="tspan3109"
+         x="172.87421"
+         y="573.36279"
+         style="font-size:90.87319183px;line-height:1.25">I</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot27"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion29"><rect
+           id="rect31"
+           width="1452.2108"
+           height="1364.5548"
+           x="-27.474258"
+           y="-46.226505" /></flowRegion><flowPara
+         id="flowPara33"></flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot35"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion37"><rect
+           id="rect39"
+           width="994.30646"
+           height="855.62689"
+           x="-27.474258"
+           y="-10.902457" /></flowRegion><flowPara
+         id="flowPara41"></flowPara></flowRoot>  </g>
+</svg>

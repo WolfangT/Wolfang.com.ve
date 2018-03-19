@@ -132,7 +132,7 @@
                         por un material dieléctrico o vacío, las placas paralelas pueden ser rectangulares, circulares, cilíndricas
                         y el dieléctrico puede vidrio, aire, papel, cerámica, aceite, etc.</p>
                     <img class="symbol" src="images/condensadores02.jpg" height="180" />
-                    <header>
+                    <header id="tema4.3">
                         <h4>Funcionamiento</h4>
                     </header>
                     <p>Al ser sometidos an voltaje, los Capacitores almacenan electrones en uno de sus terminales, estas generan
@@ -147,7 +147,7 @@
                         tapándola. El agua representa a los electrones, el elástico es el dieléctrico evitando que estos
                         lo atraviesen.
                     </p>
-                    <header>
+                    <header id="tema4.4">
                         <h4>Corriente a través de un Capacitor </h4>
                     </header>
                     <p>Como podemos ver en la sección anterior, los Condensadores son elementos que se oponen a la variacion
@@ -177,9 +177,60 @@
                 </header>
                 <section>
                     <header class="major">
+                        <h3>Circuitos RC</h3>
+                    </header>
+                    <p></p>
+                    <p>Es un Circuito compuesto por Capacitores y Resistencias en serie. Se pueden usar para filtrar una señal
+                        al bloquear ciertas frecuencias y permitir otras.</p>
+                    <p>El Circuito RC mas simple es un Capacitor cargado y una Resistencia conectadas entre ellas, el Capacitor
+                        va a descargar creando un voltaje, este valor depende del tiempo y se reduce hasta llegar a 0</p>
+                    <img class="symbol" src="images/symbols/Discharging_capacitor.svg" height="360" />
+                    <header id="tema4.1.1">
+                        <h4>Voltaje en el Circuito</h4>
+                    </header>
+                    <p>
+                        Como pudimos ver en el
+                        <a href="#tema4.4">tema anterior</a>
+                        la corriente que atravesara el Capacitor variara con el tiempo, y deducimos que:
+                    </p>
+                    <img class="symbol" src="images/symbols/Circuito_RC_01.svg" height="120" />
+                    <p>Al despejar el Voltaje obtenemos la formula de la Caída Exponencial, Si V0 es el Voltaje inicial del
+                        Capacitor
+                    </p>
+                    <img class="symbol" src="images/symbols/Circuito_RC_02.svg" height="120" />
+                    <p>Ademas, el tiempo requerido para que el voltaje disminuya a un 1/e de su valor inicial, se conoce como
+                        la Constante de Tiempo RC, y esta definida por:
+                    </p>
+                    <img class="symbol" src="images/symbols/Circuito_RC_03.svg" height="90" />
+                </section>
+
+                <section>
+                    <header class="major">
                         <h3>Circuitos RL</h3>
                     </header>
-
+                    <p></p>
+                    <p>Es un Circuito compuesto por Inductores y Resistencias en serie. Se pueden usar para filtrar una señal,
+                        específicamente los circuitos de Respuesta Infinita al Impulso esta compuesto de una sola Resistencia
+                        con un Inductor</p>
+                    <p>
+                        Un Circuito de Respuesta Natural es un circuito RL en el que el Inductor se se encuentra cargado y conectado a una Resistencia.
+                        El inductor descargara su campo magnético generando una corriente cuyo valor dependerá del tiempo
+                    </p>
+                    <header>
+                        <h4>Corriente en el Circuito</h4>
+                    </header>
+                    <p>
+                        Como pudimos ver en el
+                        <a href="#tema3.4">tema anterior</a> y en simetría con los
+                        <a href="#tema4.1.1">Circuitos RC</a> la corriente que generara el Inductor esta dada por:
+                    </p>
+                    <img class="symbol" src="images/symbols/Circuito_RL_01.svg" height="120" />
+                    <p>Definiendo la Constante de Tiempo RL como:
+                    </p>
+                    <img class="symbol" src="images/symbols/Circuito_RL_02.svg" height="120" />
+                    <p>Por lo que terminamos con:
+                    </p>
+                    <img class="symbol" src="images/symbols/Circuito_RL_03.svg" height="120" />
                 </section>
             </div>
         </div>
