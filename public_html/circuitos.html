@@ -65,14 +65,13 @@
                     <h2>Corriente Alterna</h2>
                 </header>
                 <section>
-                    <p></p>
                     <p>Corriente alterna (abreviada CA en español y AC en inglés, de alternating current) se denomina a la corriente
-                        eléctrica en la que la magnitud y el sentido varían cíclicamente.</p>
+                        eléctrica en la que la magnitud y el sentido varían cíclicamente, significando esto que gráficamente
+                        pasa la mitad del tiempo en zona positiva y la otra mitad en zona negativa.</p>
                     <p>La forma de oscilación de la corriente alterna más comúnmente utilizada es la oscilación senoidal (sinusoidal
                         en inglés) ​con la que se consigue una transmisión más eficiente de la energía, a tal punto que al
                         hablar de corriente alterna se sobrentiende que se refiere a la corriente alterna senoidal.</p>
-                    </p>
-                    <img class="symbol" src="images/Corriente_Alterna.png" height="240" />
+                    <img class="symbol" src="images/Onda_Senoidal.png" height="240" />
                     <p>Sin embargo, en ciertas aplicaciones se utilizan otras formas de oscilación periódicas, tales como la
                         triangular o la cuadrada.</p>
                     <p>Utilizada genéricamente, la CA se refiere a la forma en la cual la electricidad llega a los hogares y
@@ -82,7 +81,7 @@
                     <p>Algunos tipos de oscilaciones periódicas tienen el inconveniente de no tener definida su expresión matemática,
                         por lo que no se puede operar analíticamente con ellas. Por el contrario, la oscilación sinusoidal
                         no tiene esta indeterminación matemática y presenta las siguientes ventajas:</p>
-                    <ol>
+                    <ul>
                         <li>La función seno está perfectamente definida mediante su expresión analítica y gráfica. Mediante la
                             teoría de los números complejos se analizan con suma facilidad los circuitos de alterna.</li>
                         <li>Las oscilaciones periódicas no sinusoidales se pueden descomponer en suma de una serie de oscilaciones
@@ -92,11 +91,181 @@
                             de la energía eléctrica.</li>
                         <li>Su transformación en otras oscilaciones de distinta magnitud se consigue con facilidad mediante la
                             utilización de transformadores.</li>
-                    </ol>
-                    <h4>Potencia en C.A</h4>
-                    <img class="symbol" src="images/symbols/Corriente_Alterna_01.png" height="30" />
-                    <h4>Impedancia</h4>
-                    <img class="symbol" src="images/symbols/Corriente_Alterna_02.png" height="120" />
+                    </ul>
+
+                    <section>
+                        <header class="major">
+                            <h3>Oscilación Senoidal</h3>
+                        </header>
+                        <p>Una señal senoidal o sinusoidal,
+                            <em>a(t)</em>, tensión,
+                            <em>v(t)</em>, y corriente,
+                            <em>i(t)</em>, se puede expresar matemáticamente según sus parámetros característicos, como una función
+                            del tiempo por medio de la siguiente ecuación:</p>
+                        <img class="symbol" src="images/Onda_Senoidal_Parametros.png" height="300" />
+                        <img class="symbol" src="images/symbols/Corriente_Alterna_03.png" height="60" />
+                        <p>Donde:</p>
+                        <ul>
+                            <li>
+                                <b>A0</b> es la amplitud en voltios (Vmax) o amperios(Imax) (también llamado valor máximo o
+                                de pico)</li>
+                            <li>
+                                <b>ω</b> la pulsación en radianes/segundo</li>
+                            <li>
+                                <b>t</b> el tiempo en segundos </li>
+                            <li>
+                                <b>β</b> el ángulo de fase inicial en radianes</li>
+                        </ul>
+                        <p>Dado que la velocidad angular es más interesante para matemáticos que para ingenieros, la fórmula
+                            anterior se suele expresar como:</p>
+                        <img class="symbol" src="images/symbols/Corriente_Alterna_04.png" height="60" />
+                        <p>Donde se puede observar que
+                            <em>ω = 2πf</em>, y donde
+                            <strong>f</strong> es la frecuencia en hercios (Hz) y equivale a la inversa del período
+                            <em>f=1/T</em>. Los valores más empleados en la distribución son 50 Hz y 60 Hz.</p>
+                    </section>
+
+                    <section>
+                        <header class="major">
+                            <h3>Valores Significativos</h3>
+                        </header>
+                        <ul>
+                            <li>
+                                <strong>Valor instantáneo</strong> (
+                                <em>a(t)</em> ): Es el que toma la ordeada en un instante, t, determinado.</li>
+                            <li>
+                                <strong>Valor pico a pico</strong> (
+                                <em>App</em> ): Diferencia entre su pico o máximo positivo y su pico negativo. Dado que el valor
+                                máximo de sen(x) es +1 y el valor mínimo es -1, una señal sinusoidal que oscila entre +A0
+                                y -A0. El valor de pico a pico, escrito como AP-P, es por lo tanto (+A0)-(-A0) = 2×A0</li>
+                            <li>
+                                <strong>Valor medio</strong> (
+                                <em>Amed</em> ): Valor del área que forma con el eje de abscisas partido por su período. El valor
+                                medio se puede interpretar como el componente de continua de la oscilación sinusoidal. El
+                                área se considera positiva si está por encima del eje de abscisas y negativa si está por
+                                debajo. Como en una señal sinusoidal el semiciclo positivo es idéntico al negativo, su valor
+                                medio es nulo. Por eso el valor medio de una Oscilación sinusoidal se refiere a un semiciclo.
+                                Mediante el cálculo integral se puede demostrar que su expresión es la siguiente
+                                <img class="symbol" src="images/symbols/Corriente_Alterna_05.png" height="120" />
+                            </li>
+                            <li>
+                                <strong>Pico o cresta</strong>: Valor máximo, de signo positivo (+), que toma la oscilación sinusoidal
+                                del espectro electromagnético, cada medio ciclo, a partir del punto “0”. Ese valor aumenta
+                                o disminuye a medida que la amplitud “A” de la propia oscilación crece o decrece positivamente
+                                por encima del valor "0".</li>
+                            <li>
+                                <strong>Valor eficaz</strong> (
+                                <em>A</em> ): El valor eficaz se define como el valor de una corriente (o tensión) continua que
+                                produce los mismos efectos calóricos que su equivalente de alterna. Es decir que para determinada
+                                corriente alterna, su valor eficaz (Ief) será la corriente continua que produzca la misma
+                                disipación de potencia (P) en una resistencia(R). Matemáticamente, el valor eficaz de una
+                                magnitud variable con el tiempo, se define como la raíz cuadrada de la media de los cuadrados
+                                de los valores instantáneos alcanzados durante un período:
+                                <img class="symbol" src="images/symbols/Corriente_Alterna_06.png" height="120" /> En la literatura inglesa este valor se conoce como R.M.S. (root mean square, valor cuadrático
+                                medio), y de hecho en matemáticas a veces es llamado valor cuadrático medio de una función.
+                                En el campo industrial, el valor eficaz es de gran importancia, ya que casi todas las operaciones
+                                con magnitudes energéticas se hacen con dicho valor. De ahí que por rapidez y claridad se
+                                represente con la letra mayúscula de la magnitud que se trate (I, V, P, etc.). Matemáticamente
+                                se demuestra que para una corriente alterna sinusoidal el valor eficaz viene dado por la
+                                expresión:
+                                <img class="symbol" src="images/symbols/Corriente_Alterna_07.png" height="120" /> El valor A, tensión o intensidad, es útil para calcular la potencia consumida por una carga.
+                                Así, si una tensión de alterna, desarrolla una cierta potencia P en una carga resistiva dada,
+                                una tensión de continua de Vrms desarrollará la misma potencia P en la misma carga, por lo
+                                tanto,
+                                <em>Vrms x I = VCA x I</em>.
+                            </li>
+                            <li>
+                                <strong>Potencia en C.A</strong>:
+                                <img class="symbol" src="images/symbols/Corriente_Alterna_01.png" height="30" />
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <header class="major">
+                            <h3>Representación Fasorial</h3>
+                        </header>
+                        <p>Una función sinusoidal puede ser representada por un número complejo cuyo argumento crece linealmente
+                            con el tiempo, al que se denomina fasor o representación de Fresnel, que tendrá las siguientes
+                            características:
+                        </p>
+                        <ul>
+                            <li>Girará con una velocidad angular ω.</li>
+                            <li>Su módulo será el valor máximo o el eficaz, según convenga.</li>
+                        </ul>
+                        <p>La razón de utilizar la representación fasorial está en la simplificación que ello supone. Matemáticamente,
+                            un fasor puede ser definido fácilmente por un número complejo, por lo que puede emplearse la
+                            teoría de cálculo de estos números para el análisis de sistemas de corriente alterna.</p>
+                        <p>Consideremos, a modo de ejemplo, una tensión de CA cuyo valor instantáneo sea el siguiente:</p>
+                        <img class="symbol" src="images/symbols/Corriente_Alterna_08.png" height="120" />
+                        <p>Tomando como módulo del fasor su valor eficaz, la representación gráfica de la anterior tensión será
+                            la que se puede observar en la figura:</p>
+                        <img class="symbol" src="images/Fasor.png" height="180" />
+                        <p>y se anotará:</p>
+                        <img class="symbol" src="images/symbols/Corriente_Alterna_09.png" height="90" />
+                        <p>denominadas formas polares, o bien:</p>
+                        <img class="symbol" src="images/symbols/Corriente_Alterna_10.png" height="90" />
+                        <p>denominada forma binómica.</p>
+                        <p>Ahora, la parte práctica de todo esto se resume a lo siguiente:</p>
+                        <p>Suponiendo que se tiene el siguiente circuito cuya fuente es de corriente alterna;</p>
+                        <img class="symbol" src="images/Circuito_CA1.png" height="240" />
+                        <p>Donde
+                            <b>V = V(t) = Vm*Sen(ωt ± θ)</b>, y
+                            <b>ω=2πf</b>.</p>
+                        <p>Esto se conoce como Circuito en dominio del tiempo, pero para poder trabajar este circuito y aplicar
+                            las propiedades ya que está en corriente alterna debe hacerse una transformación hacia el dominio
+                            del fasor. Para pasar de dominio del tiempo a dominio del fasor se deben transformar los elementos:</p>
+                        <p>En este caso se transformará
+                            <b>R = R</b> (La resistencia permanece igual),
+                            <b>L = XL</b> (La inductancia se transforma en reactancia inductiva), y
+                            <b>C = Xc</b> (La capacitancia se transforma en reactancia capacitiva), y el nuevo V será el Vef
+                            (Voltaje eficaz),
+                            <b>V = Vef = Vm / √2</b>; En este caso se conserva el angulo fasor
+                            <b>θ</b>.</p>
+                        <p>Hecho esto surge un nuevo concepto llamado Impedancia</p>
+                    </section>
+
+                    <section>
+                        <header class="major">
+                            <h3>Impedancia</h3>
+                        </header>
+                        <p>La impedancia (Z) es una medida de oposición que presenta un circuito a una corriente cuando se aplica
+                            una tensión. La impedancia extiende el concepto de resistencia a los circuitos de corriente alterna
+                            (CA), y posee tanto magnitud como fase, a diferencia de la resistencia, que sólo tiene magnitud.
+                            Cuando un circuito es alimentado con corriente continua (CC), su impedancia es igual a la resistencia,
+                            lo que puede ser interpretado como la impedancia con ángulo de fase cero.</p>
+                        <p>Forma rectangular:</p>
+                        <img class="symbol" src="images/symbols/Corriente_Alterna_02.png" height="90" />
+                        <p>Forma polar:</p>
+                        <img class="symbol" src="images/symbols/Corriente_Alterna_11.png" height="90" />
+                        <p>En este caso X significa Xc o XL, dependiendo del elemento que se haya transformado:</p>
+                        <img class="symbol" src="images/symbols/Corriente_Alterna_12.png" height="240" />
+                        <p>Circuito transformado:</p>
+                        <img class="symbol" src="images/Circuito_CA2.png" height="240" />
+                        <p>
+                            <i>Las impedancias se miden en
+                                <em>Ohms (Ω)</em>.</i>
+                        </p>
+                        <p>Finalmente, obtenidas las impedancias el circuito puede ser calculado exactamente como un circuito
+                            de corriente continua, tomando las impedancias como resistencias (es decir, se pueden aplicar
+                            todas las leyes, teoremas y propiedades de la corriente continua), con la particularidad de que
+                            se debe cumplir con ciertas propiedades particulares:</p>
+                        <ul>
+                            <li>Para la suma de impedancias: Todas las impedancias deben estar en forma rectangular.</li>
+                            <li>Para la multiplicación de impedancias: Todas las impedancias deben estar en la misma forma, ya
+                                sea rectangular o polar
+                                <ul>
+                                    <li>Para la multiplicación polar se multiplican las magnitudes de Z y se suman los ángulos.</li>
+                                    <li>En la forma rectangular hay que recordar que al ser j un numero imaginario se deben aplicar
+                                        las respectivas propiedades</li>
+                                </ul>
+                            </li>
+                            <li>Para la división de impedancias: Todas las impedancias deben estar en su forma polar (Se dividen
+                                las magnitudes y se restan los ángulos).</li>
+                        </ul>
+
+                    </section>
+
                 </section>
             </div>
         </div>
@@ -174,6 +343,10 @@
                     <img class="symbol" src="images/symbols/Bobinas_01.png" height="120" />
                     <p>Y la Corriente viene dada por:</p>
                     <img class="symbol" src="images/symbols/Bobinas_02.png" height="90" />
+                    <p>Esto quiere decir que, si por ejemplo tenemos el siguiente circuito en el cual el interruptor se cierra
+                        en el instante t=0, el voltaje y la corriente se comportan de la siguiente manera:</p>
+                    <img class="symbol" src="images/Bobina_Circuito.png" height="180" />
+                    <img class="symbol" src="images/Bobina_Voltaje_Corriente.png" height="270" />
                 </section>
             </div>
         </div>
@@ -338,27 +511,73 @@
                         tendrá el efecto de disipar una parte de la energía en cada Oscilación, conocido como Amortiguamiento</p>
 
                     <header>
-                        <h4>Circuito RLC en Serie</h4>
+                        <h4>Amortiguamiento</h4>
                     </header>
                     <img class="symbol" src="images/symbols/Circuito_RLC_Serie.svg" height="180" />
-                    <p>Para poder explicar funcionamiento del circuito primero es importante discutir las medidas frecuencia
-                        angular,
+                    <p>Para poder explicar funcionamiento del circuito primero es importante discutir su amortiguación y para
+                        eso se necesita conocer las medidas frecuencia angular,
                         <b>α</b> y
-                        <b>ω0</b>.
+                        <b>ω
+                            <sub>0</sub>
+                        </b>.</p>
+                    <p>
                         <b>α</b> es la frecuencia neperiana o Atenuación, y es una medida de que tan rápido la respuesta del
                         circuito morirá después de ser removido una fuente de estimulo.
-                        <b>ω0</b> es la frecuencia de resonancia angular. En un circuito en series estas están dadas por:</p>
-                    <img class="symbol" src="images/symbols/Resonancia_Atenuacion_Serie.svg" height="120" />
+                        <b>ω
+                            <sub>0</sub>
+                        </b> es la frecuencia de resonancia angular. En un circuito en series estas están dadas por:</p>
+                    <img class="symbol" src="images/symbols/Resonancia_Atenuacion_Serie.svg" height="90" />
+                    <p>Un Circuito RLC puede esta en 3 estados de amortiguamiento dependiendo de la relación entre estas dos
+                        medidas:
+                    </p>
+                    <ul>
+                        <li>Si
+                            <em>α > ω0</em>, se encuentra
+                            <strong>Super-Amortiguado</strong>
+                        </li>
+                        <li>
+                            Si
+                            <em>α = ω0</em>, se encuentra
+                            <strong>Amortiguamiento Critico</strong>
+                        </li>
+                        <li>
+                            Si
+                            <em>α &lt ω0</em>, se encuentra
+                            <strong>Sub-Amortiguado</strong>
+                        </li>
+                    </ul>
+                    <h5>Super-Amortiguado</h5>
                     <p>Definiendo a las raíces S como:</p>
-                    <img class="symbol" src="images/symbols/Raices_RLC.svg" height="120" />
+                    <img class="symbol" src="images/symbols/Raices_RLC_01.svg" height="120" />
                     <p>Se puede calcular la formula para la Corriente en el circuito:</p>
-                    <img class="symbol" src="images/symbols/Corriente_RLC_Serie.svg" height="45" />
-                    <p>En donde los coeficientes A1 e A2 son dependientes del circuito y se calculan al realizar un sistema
-                        de ecuaciones con la formula resulta para el valor de la Corriente en el tiempo inicial y el que
-                        va atener después de un tiempo infinito</p>
-
+                    <img class="symbol" src="images/symbols/Corriente_RLC_Serie_01.svg" height="45" />
+                    <p>En donde los coeficientes
+                        <strong>A
+                            <sub>1</sub>
+                        </strong> e
+                        <strong>A
+                            <sub>2</sub>
+                        </strong> son dependientes del circuito y se calculan al realizar un sistema de ecuaciones con la formula resulta
+                        para el valor de la Corriente en el tiempo inicial y el que va atener después de un tiempo infinito</p>
+                    <h5>Amortiguamiento Critico</h5>
+                    <p>En este caso la formula es mas simple:</p>
+                    <img class="symbol" src="images/symbols/Corriente_RLC_Serie_02.svg" height="45" />
+                    <p>Al igual que la ves pasada los coeficientes
+                        <strong>A
+                            <sub>1</sub>
+                        </strong> e
+                        <strong>A
+                            <sub>2</sub>
+                        </strong> son dependientes del circuito </p>
+                    <h5>Sub-Amortiguamiento</h5>
+                    <p>Para este caso, definiendo la raíz
+                        <strong>ω
+                            <sub>d</sub>
+                        </strong>:</p>
+                    <img class="symbol" src="images/symbols/Raices_RLC_02.svg" height="60" />
+                    <p>Se usa la formula:</p>
+                    <img class="symbol" src="images/symbols/Corriente_RLC_Serie_03.svg" height="40" />
                 </section>
-
             </div>
         </div>
     </section>
